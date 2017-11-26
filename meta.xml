@@ -1,0 +1,11 @@
+<meta>
+
+	<info name="Script Compiler" author="Idarrr" version="1.0.0" type="script" description="Automatically compile any resource"/>
+	<script src="compiler.lua" type="server"/>
+	<script src="main.lua" type="client"/>
+	<aclrequest>
+		<right name="function.fetchRemote" access="true" />
+		<right name="function.restartResource" access="true" />
+		<right name="general.ModifyOtherObjects" access="true" />
+	</aclrequest>
+</meta>
