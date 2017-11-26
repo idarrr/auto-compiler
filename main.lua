@@ -2,7 +2,7 @@ local GUI = {}
 local sw, sh = guiGetScreenSize()
 local w, h = 500, 400
 local x, y = sw/2-w/2, sh/2-h/2
-local logs = "Nexus Client File Compiler\nSelect resource to compile."
+local logs = "Client File Compiler\nSelect resource to compile."
 
 function openGUI (datas)
 	if GUI.window and isElement(GUI.window) then
